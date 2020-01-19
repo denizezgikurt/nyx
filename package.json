@@ -1,0 +1,30 @@
+{
+  "name": "nyxmodule",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/denizezgikurt/nyx.git"
+  },
+  "keywords": [
+    "nyx",
+    "game",
+    "development",
+    "js"
+  ],
+  "author": "deniz ezgi kurt",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/denizezgikurt/nyx/issues"
+  },
+  "homepage": "https://github.com/denizezgikurt/nyx#readme",
+  "dependencies": {
+    "config.json": "0.0.4",
+    "index": "^0.4.0"
+  },
+  "devDependencies": {},
+  "description": ""
+}
