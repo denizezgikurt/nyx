@@ -9,8 +9,6 @@ const GAME_WIDTH = 800;
 const GAME_HEIGHT = 600;
 
 
-
-//
 let paddle = new Paddle(GAME_WIDTH, GAME_HEIGHT);
 
 //we also need to export the paddle here in index.js,because it doesn't know what the paddle is
@@ -35,6 +33,5 @@ function gameLoop(timestamp) {
 
 	requestAnimationFrame(gameLoop); //time stamp comes from.
 	//Request Animation frame from the browser and give it the game loop.  Everytime it runs, it says when the next framne is ready, call this game loop again and pass into the time stamp. It will calculate the delta time, pass it to the timestamp and go through the pdate function.
-
 
 }
